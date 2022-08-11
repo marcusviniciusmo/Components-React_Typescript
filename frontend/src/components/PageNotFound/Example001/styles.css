@@ -1,0 +1,35 @@
+@import url(
+  'https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+section.page404-example001 {
+  background: #FFFFFF;
+  font-family: 'Arvo', sans-serif;
+  padding: 4rem 0rem;
+}
+
+section.page404-example001 div.pageNotFoundBackground-example001 {
+  background: url(
+    'https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif')
+    center;
+    height: 40rem;
+}
+
+section.page404-example001 div.pageNotFoundBackground-example001 h1 {
+  font-size: 8rem;
+}
+
+section.page404-example001 div.pageNotFoundBackground-example001 h3 {
+  font-size: 8rem;
+}
+
+section.page404-example001 div.contantBox404-example001 {
+  margin-top: -5rem;
+}
+
+section.page404-example001 .link404-example001 {
+  background: #39AC31;
+  color: #FFFFFF !important;
+  margin: 2rem 0rem;
+  padding: 1rem 2rem;
+  display: inline-block;
+}
