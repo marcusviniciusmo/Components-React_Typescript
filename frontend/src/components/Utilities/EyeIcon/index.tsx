@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 
@@ -18,6 +19,18 @@ function EyeIcon() {
           ? <VisibilityOffIcon onClick={toggleShowPassword} />
           : <VisibilityIcon onClick={toggleShowPassword} />
         }
+      </div>
+
+      <span>Credits: @fabiocberg</span>
+
+      <div>
+        <Link to='/components'>
+          <button>Back</button>
+        </Link>
+
+        <Link to='/'>
+          <button>Home</button>
+        </Link>
       </div>
     </div>
   );

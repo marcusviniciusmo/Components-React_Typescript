@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 function LoginFormAnimated001() {
@@ -79,6 +80,16 @@ function LoginFormAnimated001() {
 
       </div>
       <span>Credits: codewithrandom</span>
+
+      <div>
+        <Link to='/components'>
+          <button>Back</button>
+        </Link>
+
+        <Link to='/'>
+          <button>Home</button>
+        </Link>
+      </div>
     </div>
   );
 };

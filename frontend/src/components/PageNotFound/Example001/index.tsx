@@ -1,8 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 
-function Example001() {
+function PageNotFound001() {
   return (
     <section className="page404-example001">
       <div className='container'>
@@ -25,8 +26,18 @@ function Example001() {
       </div>
 
       <span>Credits: codewithrandom</span>
+
+      <div>
+        <Link to='/components'>
+          <button>Back</button>
+        </Link>
+
+        <Link to='/'>
+          <button>Home</button>
+        </Link>
+      </div>
     </section>
   );
 };
 
-export default Example001;
+export default PageNotFound001;
